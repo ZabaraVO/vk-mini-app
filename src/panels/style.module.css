@@ -1,0 +1,65 @@
+:root {
+	--gray-text: #717171;
+}
+
+.textHeader {
+	font-size: 25px;
+	color: var(--control_foreground);
+	font-weight: bold;
+}
+
+.emoticon {
+	display: block;
+	width: 60px;
+	margin: 10px auto 0 auto;
+}
+
+.container {
+	text-align: center;
+}
+
+.text {
+	color: var(--gray-text);
+	font-size: 15px;
+}
+
+.bigTextContainer {
+	max-width: 400px;
+	text-align: justify;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+
+.link {
+	color: var(--button_secondary_foreground);
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 11px;
+	background-color: var(--button_secondary_background);
+	font: 500 17px Arial;
+	display: inline-block;
+	width: 250px;
+}
+
+.button {
+	display: inline-block;
+	cursor: pointer;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	padding: 12px 16px;
+}
+
+.flex {
+	display: flex;
+}
+
+.buttonLink {
+	text-decoration: none;
+}
+
+.errorText {
+	font-size: 23px;
+}
